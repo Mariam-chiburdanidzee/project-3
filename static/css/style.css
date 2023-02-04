@@ -1,0 +1,324 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* reset */
+
+@font-face {
+    font-family: 'FiraGo', sans-serif;
+    src: url(../fonts/FiraGO.ttf);
+}
+
+
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul {
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+header li {
+    display: inline-block;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+
+.card-title h1 {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    line-height: 29px;
+    width: 404px;
+    height: 29px;
+    margin-top: 72px;
+    margin-left: 490px;
+    font-family: 'FiraGo', sans-serif;
+
+}
+
+.element-box {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.element-wrapper {
+    width: 350px;
+    height: 450px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 10px 20px 10px;
+
+}
+
+.element-wrapper img {
+    width: 100%;
+}
+
+.element-wrapper h2 {
+    padding: 5px 26px 18px 26px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.element-wrapper p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.element-wrapper h3,
+.element-wrapper p {
+    margin-left: 26px;
+}
+
+.element-wrapper {
+    margin-left: 50px;
+}
+
+.element-footer button {
+    border: 1px solid black;
+    Font-size: 12px;
+    Line-height: 18px;
+    padding: 6px 26px;
+    border-radius: 4px;
+    background-color: #f5f5f5
+}
+
+.element-footer {
+    margin-bottom: 68px;
+    margin-top: 23px;
+    text-align: right;
+
+}
+
+.bottom-box {
+    display: inline-block;
+    margin-left: 65px;
+    list-style: circle;
+
+}
+
+.bottom-box-list {
+    margin-left: 190px;
+    margin-right: 162px;
+    display: inline-block;
+}
+
+div li {
+    list-style: circle;
+
+}
+
+article {
+    text-align: center;
+    margin-top: 85px;
+    font-size: 40px;
+    color: #7D0000;
+}
+
+address {
+    margin-left: 206px;
+    margin-top: 32px;
+    font-size: 25px;
+    line-height: 34px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #7D0000;
+    Font-size: 40px;
+    Line-height: 54px;
+    font-weight: 600;
+    margin: 112px 518px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    Font-size: 25px;
+    Line-height: 41px;
+    Width: 775px;
+    margin-top: 118px;
+    margin-left: 175px;
+    font-weight: 600;
+
+}
+
+.about-addres {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.contact-address {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 34px;
+    font-size: 25px;
+}
+
+.address-italic {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 34px;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.bottom-box {
+
+    display: inline-block;
+}
+
+.bottom-box {
+    list-style: circle;
+}
